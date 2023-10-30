@@ -23,10 +23,10 @@ public class App
         
         driver.findElement(By.id("email")).sendKeys("mb2023@yahoo.co.in");
         driver.findElement(By.id("pass")).sendKeys("mb2023");
-        Thread.sleep(2000);
+        Thread.sleep(200);
         
         driver.findElement(By.name("login")).click();
-        Thread.sleep(30000);
+        Thread.sleep(200);
         
         driver.close();
     }
