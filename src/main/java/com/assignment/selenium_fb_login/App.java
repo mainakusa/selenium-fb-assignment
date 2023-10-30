@@ -13,7 +13,7 @@ public class App
 {
     public static void main( String[] args ) throws InterruptedException
     {
-        System.setProperty("webdriver.chrome.driver", "chromedriver-mac-x64/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver-linux64/chromedriver");
         
         ChromeOptions chromeOptions = new ChromeOptions();
         
