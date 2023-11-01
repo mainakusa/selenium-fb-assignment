@@ -37,6 +37,6 @@ public class App
         Thread.sleep(200);
         
         System.out.println("Hello, test case completed.");
-        driver.close();
+        driver.quit();
     }
 }
